@@ -11,7 +11,7 @@ config = {
         // The url to use when providing links to the site, E.g. in RSS and email.
         url: process.env.GHOST_URL,
         mail: {
-            transport: 'SMTP',
+            //transport: 'SMTP',
             options: {
                 host: process.env.MAIL_HOST
             },
@@ -43,7 +43,7 @@ config = {
         url: process.env.GHOST_URL,
         forceAdminSSL: true,
         mail: {
-            transport: 'SMTP',
+            //transport: 'SMTP',
             options: {
                 host: process.env.MAIL_HOST
             },
